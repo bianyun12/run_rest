@@ -5,6 +5,6 @@ name:bianer
 project:test
 """
 from selenium.webdriver import Chrome
-driver=Chrome('/usr/local/bin/chromedriver')
+driver=Chrome()
 driver.get("https://www.baidu.com/")
 driver.quit()

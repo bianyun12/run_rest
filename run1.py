@@ -6,6 +6,6 @@ project:test
 """
 from selenium.webdriver import Chrome
 print("11111111111111111111111")
-driver=Chrome("/Library/Frameworks/Python.framework/Versions/3.7/bin/chromedriver")
+driver=Chrome()
 driver.get("https://www.baidu.com/")
 driver.quit()
